@@ -46,7 +46,7 @@ function absen(NamaDepan, NamaBelakang) {
   return 'siang ' + NamaDepan + NamaBelakang
 }
 console.log(absen('jabar ', 'panji'))
-console.log(absen('ade ', 'krisnanda'))
+console.log(absen('adek ', 'krisnanda'))
 console.log(absen('bara ', 'limbong'))
 
 function mean(w, x, y, z) {
