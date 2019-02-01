@@ -71,3 +71,11 @@ console.log(harian2)
 const harian3 = uangjajan(25, 25, 25, 25)
 console.log(harian3)
 const harian4 = uangjajan(harian1, harian2, harian3, harian3)
+
+const warna = [{ color: 'biru' }, { color: 'merah' }, { color: 'ijo' }]
+function pelangi() {
+  const texts = warna.forEach(text => {
+    console.log(text)
+  })
+}
+console.log(pelangi())
